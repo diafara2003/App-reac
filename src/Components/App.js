@@ -56,7 +56,7 @@ class App extends Component {
   }
 
   restarPpto = (vrGasto) => {
-    const resultado = this.state.presupuesto - vrGasto;
+    const resultado = this.state.restante - vrGasto;
     this.setState({
       restante: resultado
     });
