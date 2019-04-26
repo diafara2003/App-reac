@@ -15,7 +15,7 @@ export const revisarPpto = (ppto, restante) => {
     if ((ppto / 4) > restante) {
         _class = 'alert alert-danger'
     } else if ((ppto / 2) > restante) {
-        _class = 'alert alert-wrning'
+        _class = 'alert alert-warning'
     } else {
         _class = 'alert alert-success'
     }

@@ -13,6 +13,7 @@ class controlPpto extends Component {
                 </Presupuesto>
                 <Restante
                 restante={this.props.restante}
+                presupuesto={this.props.presupuesto}
                 >
 
                 </Restante>
